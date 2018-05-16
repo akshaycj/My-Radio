@@ -3,7 +3,7 @@ import { ParentSize } from '@vx/responsive'
 import Tree from './Tree'
 import data from './data'
 
-const TreeExample = () => (
+const TreeBase = () => (
 <div>
   <div
     style={{
@@ -22,4 +22,4 @@ const TreeExample = () => (
 </div>
 )
 
-export default TreeExample
+export default TreeBase
